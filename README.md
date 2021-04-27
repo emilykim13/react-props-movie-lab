@@ -233,13 +233,13 @@ us to set a default value in the event that a prop is not provided. By doing
 this in `MovieCard`, we can ensure that the props passed down to `CardFront` and
 `CardBack` are consistent.
 
-Write `defaultProps` for the following:
+<!-- Write `defaultProps` for the following:
 
 - `title` should default to `"Unknown"`
 - `IMDBRating` should default to `null`
 - `genres` should receive a value that will work with our `CardBack` component's
   rendering method for genres. The screen should read: `'No Genre(s) Found'`
-- `poster` should get the string `"default"`
+- `poster` should get the string `"default"` -->
 
 Review the previous Props readme for an example on default props, and/or take a
 look at the [documentation][default props] for additional guidance.
