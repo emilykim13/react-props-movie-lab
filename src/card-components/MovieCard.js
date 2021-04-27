@@ -26,6 +26,7 @@ const posterMap = {
   'the-trash-man': ttm,
   'default': defaultPoster
 }
+console.log(posterMap)
 
 export default class MovieCard extends Component {
 
